@@ -1,10 +1,9 @@
 __author__ = 'victor'
 
+def hello(s):
+    print("Hello, " + s + "!")
 
-def hello():
-    print("Hello, world")
 
-
-hello()
-hello()
-hello()
+hello("world")
+hello("python")
+hello("robert")
