@@ -1,13 +1,10 @@
 __author__ = 'victor'
 
-
-from math import sqrt
-
-
-def distance(x1, y1, x2, y2):
-    dx = x2 - x1
-    dy = y2 - y1
-    return sqrt(dx*dx + dy*dy)
+from geom2d.point import *
 
 
-print(distance(0,0, 3,4))
+a = Point(0, 0)
+b = Point(3, 4)
+print(a.distance(b))
+print(a == b)
+print(a == Point(0, 0))
