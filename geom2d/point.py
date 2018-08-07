@@ -1,6 +1,6 @@
 __author__ = 'victor'
 
-from math import sqrt
+from geom2d.point import sqrt
 
 
 class Point:
